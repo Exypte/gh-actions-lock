@@ -122,5 +122,3 @@ dependencies:
             - 'actions/checkout@v5'
 ```
 
-### What I try
-
