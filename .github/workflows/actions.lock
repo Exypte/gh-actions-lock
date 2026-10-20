@@ -6,6 +6,7 @@ workflows:
     '.github/workflows/go.yml':
         - 'actions/checkout@v6.1.0'
         - 'actions/setup-go@v5.6.0'
+        - 'exypte/print-version@main'
 dependencies:
     'actions/checkout@v6.1.0':
         ref: 'v6.1.0'
@@ -17,3 +18,8 @@ dependencies:
         commit: 'sha1-40f1582b2485089dde7abd97c1529aa768e1baff'
         owner_id: 44036562
         repo_id: 192624594
+    'exypte/print-version@main':
+        ref: 'main'
+        commit: 'sha1-4e61187d907d6708fd223b32dc479661a7efa5ef'
+        owner_id: 38421281
+        repo_id: 1427066307
