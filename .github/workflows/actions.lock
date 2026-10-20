@@ -3,7 +3,6 @@
 # Docs: https://gh.io/actions-lockfile
 version: 'v0.0.3'
 workflows:
-    '.github/workflows/actions-lock.yml': []
     '.github/workflows/go.yml':
         - 'actions/checkout@v6.1.0'
         - 'actions/setup-go@v5.6.0'
