@@ -122,3 +122,6 @@ dependencies:
             - 'actions/checkout@v5'
 ```
 
+https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles
+
+https://docs.github.com/en/actions/how-tos/administer/enforce-workflow-lockfiles
