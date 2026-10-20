@@ -7,7 +7,13 @@ workflows:
         - 'actions/checkout@v6.1.0'
         - 'actions/setup-go@v5.6.0'
         - 'exypte/print-version@main'
+        - 'exypte/print-version@test'
 dependencies:
+    'actions/checkout@v5':
+        ref: 'v5'
+        commit: 'sha1-fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09'
+        owner_id: 44036562
+        repo_id: 197814629
     'actions/checkout@v6.1.0':
         ref: 'v6.1.0'
         commit: 'sha1-d23441a48e516b6c34aea4fa41551a30e30af803'
@@ -23,3 +29,10 @@ dependencies:
         commit: 'sha1-4e61187d907d6708fd223b32dc479661a7efa5ef'
         owner_id: 38421281
         repo_id: 1427066307
+    'exypte/print-version@test':
+        ref: 'test'
+        commit: 'sha1-0d02384b7615759a4f721423a79e505cced44466'
+        owner_id: 38421281
+        repo_id: 1427066307
+        uses:
+            - 'actions/checkout@v5'
